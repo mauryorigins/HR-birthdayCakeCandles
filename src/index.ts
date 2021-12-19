@@ -1,12 +1,12 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
-import simpleArraySum from './simpleArraySum'
+// Source: https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
+import birthdayCakeCandles from './birthdayCakeCandles';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [1, 2, 3, 4, 10, 11];
-  const result = simpleArraySum(testArray);
+  const testArray = [4, 4, 1, 3];
+  const result = birthdayCakeCandles(testArray);
   console.log('Result: ', result);
 }
 
